@@ -25,7 +25,6 @@ app.use(
     },
   }),
 );
-
 // Routes
 app.get('/notes', (req, res) => {
   res.status(200).json({
